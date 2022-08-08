@@ -1,0 +1,1 @@
+C:\Users\gobills\Documents\duilib\DuiLib\Build\Release\DuiLib_Static.lib

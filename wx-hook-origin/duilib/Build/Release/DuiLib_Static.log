@@ -1,0 +1,64 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(.\Build\Release\)包含从另一个项目(DuiLib.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  StdAfx.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIManager.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  UIlib.cpp
+  WinImplBase.cpp
+  UIDelegate.cpp
+  Utils.cpp
+  UIBase.cpp
+  UIContainer.cpp
+  UIControl.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIControl.cpp(832,40): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIDlgBuilder.cpp
+  UIManager.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIManager.cpp(1045,39): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIManager.cpp(1045,48): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+  UIMarkup.cpp
+  UIRender.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIRender.cpp(1196,61): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIRender.cpp(1196,86): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIRender.cpp(1196,111): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIRender.cpp(1197,66): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIRender.cpp(1197,92): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIRender.cpp(1197,118): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Layout\UIHorizontalLayout.cpp(313,37): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UITabLayout.cpp
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Layout\UIVerticalLayout.cpp(306,37): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIActiveX.cpp
+  UIButton.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIButton.cpp(127,35): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UICheckBox.cpp
+  UICombo.cpp
+  正在生成代码...
+  正在编译...
+  UIDateTime.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIDateTime.cpp(297,35): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIEdit.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIEdit.cpp(288,35): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIGifAnim.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIGifAnim.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  UILabel.cpp
+  UIList.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIList.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIList.cpp(900,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIList.cpp(1749,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIList.cpp(1781,44): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIList.cpp(2417,48): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIOption.cpp
+  UIProgress.cpp
+  UIRichEdit.cpp
+  UIScrollBar.cpp
+  UISlider.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UISlider.cpp(212,36): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIText.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIText.cpp(52,37): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UITreeView.cpp
+  UIWebBrowser.cpp
+  正在生成代码...
+  stb_image.c
+  XUnzip.cpp
+  DuiLib_Static.vcxproj -> C:\Users\gobills\Documents\duilib\DuiLib\Build\Release\DuiLib_Static.lib

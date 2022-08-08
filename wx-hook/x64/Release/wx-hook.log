@@ -1,0 +1,55 @@
+﻿  pch.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIManager.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  dllmain.cpp
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(12,68): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [31]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(12,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(28,98): error C2664: “LPVOID DuiLib::CControlUI::GetInterface(LPCTSTR)”: 无法将参数 1 从“const char [11]”转换为“LPCTSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(28,86): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIControl.h(26,20): message : 参见“DuiLib::CControlUI::GetInterface”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(46,1): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [14]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(46,26): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(58,59): error C2664: “HWND FindWindowW(LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(58,32): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10057,1): message : 参见“FindWindowW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(61,61): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [20]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(61,26): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(67,74): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [33]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(67,26): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(74,67): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [26]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(74,26): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(80,78): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [37]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(80,26): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(92,57): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [12]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(92,26): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(95,43): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [2]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(95,26): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(96,9): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(96,15): error C2065: “push”: 未声明的标识符
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(96,33): error C2143: 语法错误: 缺少“;”(在“CHookNotify::Notify”的前面)
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(96,39): error C3867: “CHookNotify::Notify”: 非标准语法；请使用 "&" 来创建指向成员的指针
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(97,9): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(97,15): error C2065: “pop”: 未声明的标识符
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(97,19): error C2146: 语法错误: 缺少“;”(在标识符“temp”的前面)
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(98,43): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [2]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(98,26): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(101,43): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [2]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(101,26): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(106,50): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char *”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(106,32): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(123,43): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 3 从“const char [5]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(123,29): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(127,56): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-hook\dllmain.cpp(127,26): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明

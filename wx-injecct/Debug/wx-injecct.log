@@ -1,0 +1,9 @@
+﻿  pch.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIManager.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  dllmain.cpp
+C:\Users\gobills\Documents\duilib\wx-injecct\dllmain.cpp(15,80): error C2664: “DuiLib::CPaintManagerUI *DuiLib::CPaintManagerUI::GetPaintManager(LPCTSTR)”: 无法将参数 1 从“const char [7]”转换为“LPCTSTR”
+C:\Users\gobills\Documents\duilib\wx-injecct\dllmain.cpp(15,69): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIManager.h(261,26): message : 参见“DuiLib::CPaintManagerUI::GetPaintManager”的声明
+C:\Users\gobills\Documents\duilib\wx-injecct\dllmain.cpp(16,53): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [12]”转换为“LPCWSTR”
+C:\Users\gobills\Documents\duilib\wx-injecct\dllmain.cpp(16,26): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明

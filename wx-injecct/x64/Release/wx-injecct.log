@@ -1,0 +1,7 @@
+﻿  pch.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIManager.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  dllmain.cpp
+dllmain.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: static class DuiLib::CPaintManagerUI * __cdecl DuiLib::CPaintManagerUI::GetPaintManager(wchar_t const *)" (__imp_?GetPaintManager@CPaintManagerUI@DuiLib@@SAPEAV12@PEB_W@Z)
+dllmain.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl DuiLib::CPaintManagerUI::~CPaintManagerUI(void)" (__imp_??1CPaintManagerUI@DuiLib@@QEAA@XZ)
+dllmain.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl DuiLib::CPaintManagerUI::CPaintManagerUI(class DuiLib::CPaintManagerUI const &)" (__imp_??0CPaintManagerUI@DuiLib@@QEAA@AEBV01@@Z)
+C:\Users\gobills\Documents\duilib\x64\Release\wx-injecct.dll : fatal error LNK1120: 3 个无法解析的外部命令

@@ -1,0 +1,449 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(.\Build\Release\)包含从另一个项目(DuiLib_Static.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  StdAfx.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIManager.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  UITreeView.cpp
+  UIlib.cpp
+  WinImplBase.cpp
+  UIDelegate.cpp
+  Utils.cpp
+  WndShadow.cpp
+  UIBase.cpp
+  UIContainer.cpp
+  UIControl.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIControl.cpp(832,40): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIDlgBuilder.cpp
+  UIManager.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIManager.cpp(1045,39): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIManager.cpp(1045,48): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+  UIMarkup.cpp
+  UIRender.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIRender.cpp(1196,61): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIRender.cpp(1196,86): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIRender.cpp(1196,111): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIRender.cpp(1197,66): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIRender.cpp(1197,92): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIRender.cpp(1197,118): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Layout\UIHorizontalLayout.cpp(313,37): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UITabLayout.cpp
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Layout\UIVerticalLayout.cpp(306,37): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIActiveX.cpp
+  UIButton.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIButton.cpp(127,35): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  正在生成代码...
+  正在编译...
+  UICheckBox.cpp
+  UICombo.cpp
+  UIDateTime.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIDateTime.cpp(297,35): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIEdit.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIEdit.cpp(288,35): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIGifAnim.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIGifAnim.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  UILabel.cpp
+  UIList.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIList.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIList.cpp(900,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIList.cpp(1749,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIList.cpp(1781,44): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIList.cpp(2417,48): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIOption.cpp
+  UIProgress.cpp
+  UIRichEdit.cpp
+  UIScrollBar.cpp
+  UISlider.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UISlider.cpp(212,36): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIText.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Control\UIText.cpp(52,37): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIWebBrowser.cpp
+  正在生成代码...
+  stb_image.c
+  XUnzip.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\Users\gobills\Documents\duilib\DuiLib\Build\Release\DuiLib.dll) 与 Linker 的 OutputFile 属性值(C:\Users\gobills\Documents\duilib\bin\DuiLib.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+UITreeView.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UITreeView.obj : warning LNK4197: 多次指定导出“??_7CTreeNodeUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UITreeView.obj : warning LNK4197: 多次指定导出“??_7CTreeNodeUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UITreeView.obj : warning LNK4197: 多次指定导出“??_7CTreeNodeUI@DuiLib@@6B@”；使用第一个规范
+UITreeView.obj : warning LNK4197: 多次指定导出“??_7CTreeViewUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UITreeView.obj : warning LNK4197: 多次指定导出“??_7CTreeViewUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UITreeView.obj : warning LNK4197: 多次指定导出“??_7CCheckBoxUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CNotifyPump@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CWindowWnd@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CControlUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CContainerUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CContainerUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7WindowImplBase@DuiLib@@6BCWindowWnd@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7WindowImplBase@DuiLib@@6BCNotifyPump@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7WindowImplBase@DuiLib@@6BINotifyUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7WindowImplBase@DuiLib@@6BIMessageFilterUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7WindowImplBase@DuiLib@@6BIDialogBuilderCallback@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CVerticalLayoutUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CVerticalLayoutUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CHorizontalLayoutUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CHorizontalLayoutUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CTileLayoutUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CTileLayoutUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CTabLayoutUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CTabLayoutUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CChildLayoutUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CChildLayoutUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListHeaderUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListHeaderUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListHeaderItemUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListElementUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListElementUI@DuiLib@@6BIListItemUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListLabelElementUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListLabelElementUI@DuiLib@@6BIListItemUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListTextElementUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListTextElementUI@DuiLib@@6BIListItemUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListContainerElementUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListContainerElementUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CListContainerElementUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CComboUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CComboUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CComboUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CScrollBarUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CTreeNodeUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CTreeNodeUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CTreeNodeUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CTreeViewUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CTreeViewUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CLabelUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CTextUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CEditUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CButtonUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7COptionUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CCheckBoxUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CProgressUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CSliderUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CRichEditUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CRichEditUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CDateTimeUI@DuiLib@@6B@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CActiveXUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CActiveXUI@DuiLib@@6BIMessageFilterUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BIMessageFilterUI@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BIDocHostUIHandler@@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BIServiceProvider@@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BIOleCommandTarget@@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BIDispatch@@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BITranslateAccelerator@1@@”；使用第一个规范
+StdAfx.obj : warning LNK4197: 多次指定导出“??_7CGifAnimUI@DuiLib@@6B@”；使用第一个规范
+UIlib.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+WinImplBase.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+WinImplBase.obj : warning LNK4197: 多次指定导出“?messageMap@WindowImplBase@DuiLib@@1UDUI_MSGMAP@2@B”；使用第一个规范
+WinImplBase.obj : warning LNK4197: 多次指定导出“?m_lpResourceZIPBuffer@WindowImplBase@DuiLib@@1PAEA”；使用第一个规范
+WinImplBase.obj : warning LNK4197: 多次指定导出“?_messageEntries@WindowImplBase@DuiLib@@0QBUDUI_MSGMAP_ENTRY@2@B”；使用第一个规范
+UIDelegate.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIDelegate.obj : warning LNK4197: 多次指定导出“??_7CDelegateBase@DuiLib@@6B@”；使用第一个规范
+Utils.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+WndShadow.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIBase.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIBase.obj : warning LNK4197: 多次指定导出“?messageMap@CNotifyPump@DuiLib@@1UDUI_MSGMAP@2@B”；使用第一个规范
+UIBase.obj : warning LNK4197: 多次指定导出“?_messageEntries@CNotifyPump@DuiLib@@0QBUDUI_MSGMAP_ENTRY@2@B”；使用第一个规范
+UIBase.obj : warning LNK4197: 多次指定导出“??_7CWindowWnd@DuiLib@@6B@”；使用第一个规范
+UIContainer.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIContainer.obj : warning LNK4197: 多次指定导出“??_7CContainerUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIContainer.obj : warning LNK4197: 多次指定导出“??_7CContainerUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UIControl.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIControl.obj : warning LNK4197: 多次指定导出“??_7CControlUI@DuiLib@@6B@”；使用第一个规范
+UIDlgBuilder.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIDlgBuilder.obj : warning LNK4197: 多次指定导出“??_7CCheckBoxUI@DuiLib@@6B@”；使用第一个规范
+UIManager.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIManager.obj : warning LNK4197: 多次指定导出“?m_hResourceInstance@CPaintManagerUI@DuiLib@@0PAUHINSTANCE__@@A”；使用第一个规范
+UIManager.obj : warning LNK4197: 多次指定导出“?m_hResourceZip@CPaintManagerUI@DuiLib@@0PAXA”；使用第一个规范
+UIManager.obj : warning LNK4197: 多次指定导出“?m_bCachedResourceZip@CPaintManagerUI@DuiLib@@0_NA”；使用第一个规范
+UIManager.obj : warning LNK4197: 多次指定导出“?m_hInstance@CPaintManagerUI@DuiLib@@0PAUHINSTANCE__@@A”；使用第一个规范
+UIManager.obj : warning LNK4197: 多次指定导出“?m_H@CPaintManagerUI@DuiLib@@0FA”；使用第一个规范
+UIManager.obj : warning LNK4197: 多次指定导出“?m_S@CPaintManagerUI@DuiLib@@0FA”；使用第一个规范
+UIManager.obj : warning LNK4197: 多次指定导出“?m_L@CPaintManagerUI@DuiLib@@0FA”；使用第一个规范
+UIManager.obj : warning LNK4197: 多次指定导出“?m_pStrResourcePath@CPaintManagerUI@DuiLib@@0VCDuiString@2@A”；使用第一个规范
+UIManager.obj : warning LNK4197: 多次指定导出“?m_pStrResourceZip@CPaintManagerUI@DuiLib@@0VCDuiString@2@A”；使用第一个规范
+UIMarkup.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIRender.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIChildLayout.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIChildLayout.obj : warning LNK4197: 多次指定导出“??_7CChildLayoutUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIChildLayout.obj : warning LNK4197: 多次指定导出“??_7CChildLayoutUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UIHorizontalLayout.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIHorizontalLayout.obj : warning LNK4197: 多次指定导出“??_7CHorizontalLayoutUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIHorizontalLayout.obj : warning LNK4197: 多次指定导出“??_7CHorizontalLayoutUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UITabLayout.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UITabLayout.obj : warning LNK4197: 多次指定导出“??_7CTabLayoutUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UITabLayout.obj : warning LNK4197: 多次指定导出“??_7CTabLayoutUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UITileLayout.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UITileLayout.obj : warning LNK4197: 多次指定导出“??_7CTileLayoutUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UITileLayout.obj : warning LNK4197: 多次指定导出“??_7CTileLayoutUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UIVerticalLayout.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIVerticalLayout.obj : warning LNK4197: 多次指定导出“??_7CVerticalLayoutUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIVerticalLayout.obj : warning LNK4197: 多次指定导出“??_7CVerticalLayoutUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UIActiveX.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIActiveX.obj : warning LNK4197: 多次指定导出“??_7CActiveXUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIActiveX.obj : warning LNK4197: 多次指定导出“??_7CActiveXUI@DuiLib@@6BIMessageFilterUI@1@@”；使用第一个规范
+UIButton.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIButton.obj : warning LNK4197: 多次指定导出“??_7CButtonUI@DuiLib@@6B@”；使用第一个规范
+UICheckBox.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UICombo.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UICombo.obj : warning LNK4197: 多次指定导出“??_7CComboUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UICombo.obj : warning LNK4197: 多次指定导出“??_7CComboUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UICombo.obj : warning LNK4197: 多次指定导出“??_7CComboUI@DuiLib@@6B@”；使用第一个规范
+UIDateTime.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIDateTime.obj : warning LNK4197: 多次指定导出“??_7CDateTimeUI@DuiLib@@6B@”；使用第一个规范
+UIEdit.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIEdit.obj : warning LNK4197: 多次指定导出“??_7CEditUI@DuiLib@@6B@”；使用第一个规范
+UIGifAnim.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIGifAnim.obj : warning LNK4197: 多次指定导出“??_7CGifAnimUI@DuiLib@@6B@”；使用第一个规范
+UILabel.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UILabel.obj : warning LNK4197: 多次指定导出“??_7CLabelUI@DuiLib@@6B@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListHeaderUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListHeaderUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListHeaderItemUI@DuiLib@@6B@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListElementUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListElementUI@DuiLib@@6BIListItemUI@1@@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListLabelElementUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListLabelElementUI@DuiLib@@6BIListItemUI@1@@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListTextElementUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListTextElementUI@DuiLib@@6BIListItemUI@1@@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListContainerElementUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListContainerElementUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UIList.obj : warning LNK4197: 多次指定导出“??_7CListContainerElementUI@DuiLib@@6B@”；使用第一个规范
+UIOption.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIOption.obj : warning LNK4197: 多次指定导出“??_7COptionUI@DuiLib@@6B@”；使用第一个规范
+UIProgress.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIProgress.obj : warning LNK4197: 多次指定导出“??_7CProgressUI@DuiLib@@6B@”；使用第一个规范
+UIRichEdit.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIRichEdit.obj : warning LNK4197: 多次指定导出“??_7CRichEditUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIRichEdit.obj : warning LNK4197: 多次指定导出“??_7CRichEditUI@DuiLib@@6BIContainerUI@1@@”；使用第一个规范
+UIScrollBar.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIScrollBar.obj : warning LNK4197: 多次指定导出“??_7CScrollBarUI@DuiLib@@6B@”；使用第一个规范
+UISlider.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UISlider.obj : warning LNK4197: 多次指定导出“??_7CSliderUI@DuiLib@@6B@”；使用第一个规范
+UIText.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIText.obj : warning LNK4197: 多次指定导出“??_7CTextUI@DuiLib@@6B@”；使用第一个规范
+UIWebBrowser.obj : warning LNK4197: 多次指定导出“??HCDuiString@DuiLib@@QBE?AV01@PB_W@Z”；使用第一个规范
+UIWebBrowser.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BCControlUI@1@@”；使用第一个规范
+UIWebBrowser.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BIMessageFilterUI@1@@”；使用第一个规范
+UIWebBrowser.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BIDocHostUIHandler@@@”；使用第一个规范
+UIWebBrowser.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BIServiceProvider@@@”；使用第一个规范
+UIWebBrowser.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BIOleCommandTarget@@@”；使用第一个规范
+UIWebBrowser.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BIDispatch@@@”；使用第一个规范
+UIWebBrowser.obj : warning LNK4197: 多次指定导出“??_7CWebBrowserUI@DuiLib@@6BITranslateAccelerator@1@@”；使用第一个规范
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_access_version_number
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_benign_error
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_build_grayscale_palette
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_calloc
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_chunk_benign_error
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_chunk_error
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_chunk_warning
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_convert_from_struct_tm
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_convert_from_time_t
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_convert_to_rfc1123
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_create_info_struct
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_create_read_struct
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_create_read_struct_2
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_create_write_struct
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_create_write_struct_2
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_data_freer
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_destroy_info_struct
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_destroy_read_struct
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_destroy_write_struct
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_error
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_free
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_free_data
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_free_default
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_IHDR
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_PLTE
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_bKGD
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_bit_depth
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_cHRM
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_cHRM_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_channels
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_chunk_cache_max
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_chunk_malloc_max
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_color_type
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_compression_buffer_size
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_compression_type
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_copyright
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_error_ptr
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_filter_type
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_gAMA
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_gAMA_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_hIST
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_header_ver
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_header_version
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_iCCP
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_image_height
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_image_width
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_int_32
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_interlace_type
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_io_chunk_name
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_io_chunk_type
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_io_ptr
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_io_state
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_libpng_ver
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_mem_ptr
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_oFFs
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_pCAL
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_pHYs
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_pHYs_dpi
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_pixel_aspect_ratio
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_pixel_aspect_ratio_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_pixels_per_inch
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_pixels_per_meter
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_rgb_to_gray_status
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_rowbytes
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_rows
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_sBIT
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_sCAL
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_sCAL_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_sCAL_s
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_sPLT
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_sRGB
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_signature
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_tIME
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_tRNS
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_text
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_uint_16
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_uint_31
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_uint_32
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_unknown_chunks
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_user_chunk_ptr
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_user_height_max
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_user_transform_ptr
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_user_width_max
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_valid
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_x_offset_inches
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_x_offset_inches_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_x_offset_microns
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_x_offset_pixels
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_x_pixels_per_inch
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_x_pixels_per_meter
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_y_offset_inches
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_y_offset_inches_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_y_offset_microns
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_y_offset_pixels
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_y_pixels_per_inch
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_get_y_pixels_per_meter
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_handle_as_unknown
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_info_init_3
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_init_io
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_longjmp
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_malloc
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_malloc_default
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_malloc_warn
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_permit_mng_features
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_read_end
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_read_image
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_read_info
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_read_png
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_read_row
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_read_rows
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_read_update_info
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_reset_zstream
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_save_int_32
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_save_uint_16
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_save_uint_32
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_IHDR
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_PLTE
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_add_alpha
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_bKGD
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_background
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_background_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_benign_errors
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_bgr
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_cHRM
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_cHRM_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_chunk_cache_max
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_chunk_malloc_max
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_compression_buffer_size
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_compression_level
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_compression_mem_level
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_compression_method
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_compression_strategy
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_compression_window_bits
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_crc_action
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_error_fn
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_expand
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_expand_gray_1_2_4_to_8
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_filler
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_filter
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_filter_heuristics
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_filter_heuristics_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_flush
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_gAMA
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_gAMA_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_gamma
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_gamma_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_gray_to_rgb
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_hIST
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_iCCP
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_interlace_handling
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_invalid
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_invert_alpha
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_invert_mono
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_keep_unknown_chunks
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_longjmp_fn
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_mem_fn
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_oFFs
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_pCAL
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_pHYs
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_packing
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_packswap
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_palette_to_rgb
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_quantize
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_read_fn
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_read_status_fn
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_read_user_chunk_fn
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_read_user_transform_fn
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_rgb_to_gray
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_rgb_to_gray_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_rows
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_sBIT
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_sCAL
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_sCAL_fixed
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_sCAL_s
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_sPLT
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_sRGB
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_sRGB_gAMA_and_cHRM
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_shift
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_sig_bytes
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_strip_16
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_strip_alpha
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_swap
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_swap_alpha
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_tIME
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_tRNS
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_tRNS_to_alpha
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_text
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_unknown_chunk_location
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_unknown_chunks
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_user_limits
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_user_transform_info
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_write_fn
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_write_status_fn
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_set_write_user_transform_fn
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_sig_cmp
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_start_read_image
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_warning
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_chunk
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_chunk_data
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_chunk_end
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_chunk_start
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_end
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_flush
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_image
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_info
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_info_before_PLTE
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_png
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_row
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_rows
+DuiLib.def : error LNK2001: 无法解析的外部符号 png_write_sig
+../Lib/DuiLib.lib : fatal error LNK1120: 210 个无法解析的外部命令

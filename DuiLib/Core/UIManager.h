@@ -355,7 +355,7 @@ public:
     bool AddNotifier(INotifyUI* pControl);
     bool RemoveNotifier(INotifyUI* pControl);   
     void SendNotify(TNotifyUI& Msg, bool bAsync = false, bool bEnableRepeat = true);
-    void SendNotify(CControlUI* pControl, LPCTSTR pstrMessage, WPARAM wParam = 0, LPARAM lParam = 0, bool bAsync = false, bool bEnableRepeat = true);
+    void SendNotify(CControlUI* pControl, const wchar_t* pstrMessage, unsigned int wParam = 0, long int lParam = 0, bool bAsync = false);
 
     bool AddPreMessageFilter(IMessageFilterUI* pFilter);
     bool RemovePreMessageFilter(IMessageFilterUI* pFilter);

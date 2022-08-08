@@ -22,57 +22,49 @@ protected:
 public:
     virtual CDuiString GetName() const;
     virtual void SetName(LPCTSTR pstrName);
-    virtual LPCTSTR GetClass() const;
-    virtual LPVOID GetInterface(LPCTSTR pstrName);
+
+    virtual void SetCover(CControlUI* pControl);
+    
     virtual UINT GetControlFlags() const;
 	virtual HWND GetNativeWindow() const;
-
-    virtual bool Activate();
-    virtual CPaintManagerUI* GetManager() const;
+    virtual LPCTSTR GetClass() const;
+    virtual LPVOID GetInterface(LPCTSTR pstrName);
+    //virtual bool Activate();
+    
+    
     virtual void SetManager(CPaintManagerUI* pManager, CControlUI* pParent, bool bInit = true);
-    virtual CControlUI* GetParent() const;
-    virtual CControlUI* GetCover() const;
-    virtual void SetCover(CControlUI *pControl);
+    // virtual CControlUI* GetParent() const;
+    DWORD GetBkColor2() const;
 
+    virtual CControlUI* GetCover() const;
+    //virtual void SetCover(CControlUI *pControl);
+
+    
     // 文本相关
     virtual CDuiString GetText() const;
-    virtual void SetText(LPCTSTR pstrText);
+    // virtual void SetText(LPCTSTR pstrText);
+    virtual int GetHeight() const;
 
-    // 图形相关
-    DWORD GetBkColor() const;
-    void SetBkColor(DWORD dwBackColor);
-    DWORD GetBkColor2() const;
-    void SetBkColor2(DWORD dwBackColor);
-    DWORD GetBkColor3() const;
-    void SetBkColor3(DWORD dwBackColor);
-    LPCTSTR GetBkImage();
-    void SetBkImage(LPCTSTR pStrImage);
-	DWORD GetFocusBorderColor() const;
-	void SetFocusBorderColor(DWORD dwBorderColor);
-    bool IsColorHSL() const;
-    void SetColorHSL(bool bColorHSL);
-    SIZE GetBorderRound() const;
-    void SetBorderRound(SIZE cxyRound);
-    bool DrawImage(HDC hDC, TDrawInfo& drawInfo);
+    virtual bool Activate();
 
-	//边框相关
-	DWORD GetBorderColor() const;
-	void SetBorderColor(DWORD dwBorderColor);
-	RECT GetBorderSize() const;
-	void SetBorderSize(RECT rc);
-	void SetBorderSize(int iSize);
-	int GetBorderStyle() const;
-	void SetBorderStyle(int nStyle);
+    virtual CPaintManagerUI* GetManager() const;
 
     // 位置相关
-    virtual const RECT& GetPos() const;
+    //virtual const RECT& GetPos() const;
 	virtual RECT GetRelativePos() const; // 相对(父控件)位置
 	virtual RECT GetClientPos() const; // 客户区域（除去scrollbar和inset）
+
+    virtual CControlUI* GetParent() const;
+
 	// 只有控件为float的时候，外部调用SetPos和Move才是有效的，位置参数是相对父控件的位置
     virtual void SetPos(RECT rc, bool bNeedInvalidate = true);
+    virtual void SetText(wchar_t* pstrText);
 	virtual void Move(SIZE szOffset, bool bNeedInvalidate = true);
+
     virtual int GetWidth() const;
-    virtual int GetHeight() const;
+
+    //virtual int GetHeight() const;
+    virtual const RECT& GetPos() const;
     virtual int GetX() const;
     virtual int GetY() const;
     virtual RECT GetPadding() const;
@@ -95,7 +87,7 @@ public:
     virtual void SetMaxHeight(int cy);
 
     // 鼠标提示
-    virtual CDuiString GetToolTip() const;
+    // virtual CDuiString GetToolTip() const;
     virtual void SetToolTip(LPCTSTR pstrText);
 	virtual void SetToolTipWidth(int nWidth);
 	virtual int	  GetToolTipWidth(void);	// 多行ToolTip单行最长宽度
@@ -112,20 +104,29 @@ public:
     virtual const CDuiString& GetUserData(); // 辅助函数，供用户使用
     virtual void SetUserData(LPCTSTR pstrText); // 辅助函数，供用户使用
     virtual UINT_PTR GetTag() const; // 辅助函数，供用户使用
+
+    virtual CDuiString GetToolTip() const;
+
     virtual void SetTag(UINT_PTR pTag); // 辅助函数，供用户使用
 
     // 一些重要的属性
-    virtual bool IsVisible() const;
+    // virtual bool IsVisible() const;
+    virtual bool DoPaint(HDC hDC, const RECT& rcPaint, CControlUI* pStopControl);
+
+
+
     virtual void SetVisible(bool bVisible = true);
     virtual void SetInternVisible(bool bVisible = true); // 仅供内部调用，有些UI拥有窗口句柄，需要重写此函数
     virtual bool IsEnabled() const;
-    virtual void SetEnabled(bool bEnable = true);
+    
+    // virtual void SetEnabled(bool bEnable = true);
     virtual bool IsMouseEnabled() const;
     virtual void SetMouseEnabled(bool bEnable = true);
     virtual bool IsKeyboardEnabled() const;
     virtual void SetKeyboardEnabled(bool bEnable = true);
-    virtual bool IsFocused() const;
-    virtual void SetFocus();
+    // virtual bool IsFocused() const;
+    //virtual void SetFocus();
+
     virtual bool IsFloat() const;
     virtual void SetFloat(bool bFloat = true);
 
@@ -146,9 +147,6 @@ public:
     virtual void Init();
     virtual void DoInit();
 
-    virtual void Event(TEventUI& event);
-    virtual void DoEvent(TEventUI& event);
-
     virtual CDuiString GetAttribute(LPCTSTR pstrName);
     virtual void SetAttribute(LPCTSTR pstrName, LPCTSTR pstrValue);
 	virtual CDuiString GetAttributeList(bool bIgnoreDefault = true);
@@ -156,18 +154,89 @@ public:
 
     virtual SIZE EstimateSize(SIZE szAvailable);
 
+    
+    virtual bool IsVisible() const;
+
 	virtual bool Paint(HDC hDC, const RECT& rcPaint, CControlUI* pStopControl=NULL); // 返回要不要继续绘制
-    virtual bool DoPaint(HDC hDC, const RECT& rcPaint, CControlUI* pStopControl);
+    
+    // virtual bool DoPaint(HDC hDC, const RECT& rcPaint, CControlUI* pStopControl);
+
     virtual void PaintBkColor(HDC hDC);
     virtual void PaintBkImage(HDC hDC);
     virtual void PaintStatusImage(HDC hDC);
+
+    virtual void SetEnabled(bool bEnable = true);
+
     virtual void PaintText(HDC hDC);
     virtual void PaintBorder(HDC hDC);
 
+    
+
     virtual void DoPostPaint(HDC hDC, const RECT& rcPaint);
+
+    //virtual void SetPlaceHolder2();
+    virtual void SetPlaceHolder0();
 
 	//虚拟窗口参数
 	void SetVirtualWnd(LPCTSTR pstrValue);
+    virtual bool IsFocused() const;
+
+    // 占位方法
+    virtual void SetPlaceHolder();
+    virtual void SetPlaceHolder1();
+
+    virtual void SetFocus();
+
+    
+    virtual void SetPlaceHolder3();
+    virtual void SetPlaceHolder4();
+    virtual void SetPlaceHolder5();
+    virtual void SetPlaceHolder6();
+    virtual void SetPlaceHolder7();
+    virtual void SetPlaceHolder8();
+    virtual void SetPlaceHolder9();
+    virtual void SetPlaceHolder10();
+    virtual void SetPlaceHolder11();
+    virtual void SetPlaceHolder12();
+    virtual void SetPlaceHolder13();
+    virtual void SetPlaceHolder14();
+    virtual void SetPlaceHolder15();
+    virtual void SetPlaceHolder16();
+
+    virtual void DoEvent(TEventUI& event);
+    virtual void Event(TEventUI& event);
+
+
+
+
+    // 图形相关
+    DWORD GetBkColor() const;
+    void SetBkColor(DWORD dwBackColor);
+    // DWORD GetBkColor2() const;
+
+
+    void SetBkColor2(DWORD dwBackColor);
+    DWORD GetBkColor3() const;
+    void SetBkColor3(DWORD dwBackColor);
+    LPCTSTR GetBkImage();
+    void SetBkImage(LPCTSTR pStrImage);
+    DWORD GetFocusBorderColor() const;
+    void SetFocusBorderColor(DWORD dwBorderColor);
+    bool IsColorHSL() const;
+    void SetColorHSL(bool bColorHSL);
+    SIZE GetBorderRound() const;
+    void SetBorderRound(SIZE cxyRound);
+    bool DrawImage(HDC hDC, TDrawInfo& drawInfo);
+
+    //边框相关
+    DWORD GetBorderColor() const;
+    void SetBorderColor(DWORD dwBorderColor);
+    RECT GetBorderSize() const;
+    void SetBorderSize(RECT rc);
+    void SetBorderSize(int iSize);
+    int GetBorderStyle() const;
+    void SetBorderStyle(int nStyle);
+
 	CDuiString GetVirtualWnd() const;
 
 public:

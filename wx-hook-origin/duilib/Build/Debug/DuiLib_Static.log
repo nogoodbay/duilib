@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : 文件“c:\users\gobills\documents\duilib\duilib\build\debug\duilib.pch”正由另一进程使用，因此该进程无法访问此文件。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : 文件“c:\users\gobills\documents\duilib\duilib\build\debug\vc142.idb”正由另一进程使用，因此该进程无法访问此文件。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : 文件“c:\users\gobills\documents\duilib\duilib\build\debug\vc142.pdb”正由另一进程使用，因此该进程无法访问此文件。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(.\Build\Debug\)包含从另一个项目(DuiLib.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(493,5): error MSB3061: 无法删除文件“.\Build\Debug/DuiLib.pch”。文件“C:\Users\gobills\Documents\duilib\DuiLib\Build\Debug\DuiLib.pch”正由另一进程使用，因此该进程无法访问此文件。

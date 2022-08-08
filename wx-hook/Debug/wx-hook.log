@@ -1,0 +1,4 @@
+﻿  pch.cpp
+C:\Users\gobills\Documents\duilib\DuiLib\Core\UIManager.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  dllmain.cpp
+  wx-hook.vcxproj -> C:\Users\gobills\Documents\duilib\Debug\wx-hook.dll
